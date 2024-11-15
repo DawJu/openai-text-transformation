@@ -14,7 +14,7 @@ def generate_html_from_article(file_path):
     tranformation_prompt = (
         'Transform the following article into structured HTML suitable for a webpage. Use appropriate HTML tags, '
         'insert <img> tags for relevant image placeholders with src="image_placeholder.jpg" attribute and the alt attribute containing a detailed prompt that could be used for generating that image, '
-        'and add captions using appropriate tags. Ensure the output includes only the content between <body> and </body>. Do not use the <body> and </body> tags or "```html ```", and keep everything in the article\'s original language.\n\n'
+        'and add captions (in the article\'s original language) using appropriate tags. Ensure the output includes only the content between <body> and </body>. Do not use the <body> and </body> tags or "```html ```".\n\n'
         f'Article:\n{article_content}'
     )
 
