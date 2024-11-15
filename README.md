@@ -8,7 +8,7 @@ Aby uruchomić aplikację:
 4. Podmień treść pliku `text_file.txt`, by stworzyć inny artykuł.
 
 ### [ENG]
-The app uses OpenAI's API to transform a text file (containing an article's content) into an HTML file, and add images in appropriate places. The generated file should be ready to paste in between the `<body>` and `</body>` tags. The repo includes example article content, generated article, HTML template and a complete preview.
+The app uses OpenAI's API to transform a text file (containing an article's content) into an HTML file, and add images in appropriate places. The generated file should be ready to paste in between the `<body>` and `</body>` tags. The repo includes example article content, generated article (artykul.html), HTML template (szablon.html) and a complete preview (podglad.html).
 
 To run the app:
 1. Clone the repo (or download its contents).
